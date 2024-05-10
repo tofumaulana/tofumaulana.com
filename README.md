@@ -9,7 +9,7 @@ This is a personal website that I built using vue.js, Tailwind CSS. It's a place
 - Facebook: [Tofu Maulaa](https://web.facebook.com/tofu.maulana.9)
 - Github: [tofumaulana](https://github.com/tofumaulana)
 - Instagram [Tofumaulana](https://www.instagram.com/tofumaulana)
-- Twitter [Tofumaulana] (https://twitter.com/Tofu_maulana)
+- Twitter [Tofu_maulana] (https://twitter.com/Tofu_maulana)
 
 ## Recommended IDE Setup
 

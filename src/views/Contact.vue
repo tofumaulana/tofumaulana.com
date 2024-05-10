@@ -1,5 +1,8 @@
 <template>
-  <form class="max-w-sm md:max-w-xl mx-auto py-16 px-5">
+  <form class="max-w-sm md:max-w-xl mx-auto py-14 px-5">
+    <div class="text-center">
+      <h1 class="text-4xl font-bold">Hubungi Kami</h1>
+    </div>
     <div class="">
       <div class="py-3">
         <label for="text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Name</label>
