@@ -40,7 +40,10 @@
           <span class="sr-only">GitHub account</span>
         </a>
       </div>
-      <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2024 <a href="https://www.instagram.com/tofumaulana/" class="text-black font-bold">TofuMaulana</a>. All Rights Reserved. </span>
+      <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center"
+        >© 2024 Created by <a href="https://www.instagram.com/tofumaulana/" class="text-black font-bold text-green-400 hover:text-pink-700">TofuMaulana</a> using <span class="text-green-700 font-bold">Vue.js</span> &
+        <span class="text-blue-600 font-bold">Tailwind CSS.</span></span
+      >
     </div>
   </footer>
 </template>
