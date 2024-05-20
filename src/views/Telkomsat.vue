@@ -1,4 +1,11 @@
 <template>
+  <div class="px-10 pt-5">
+    <a href="/Project" class="">
+      <svg class="md:w-10 w-6 md:h-10 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12l4-4m-4 4 4 4" />
+      </svg>
+    </a>
+  </div>
   <div class="mx-auto py-5 px-10 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-5 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-6 xl:col-span-2">
     <img class="aspect-[3/2] w-full rounded-xl object-cover border-2" src="/image/Screenshot_25-3-2024_192024_localhost.jpeg" alt="" />
     <img class="aspect-[3/2] w-full rounded-xl object-cover border-2" src="/image/Screenshot_17-3-2024_204952_localhost.jpeg" alt="" />
