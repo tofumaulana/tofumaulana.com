@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="py-4 border-t-2 max-h-full border-black dark:bg-gray-700 text-center">
+    <div class="py-4 border-t-2 min-h-full border-black text-center">
       <div class="flex justify-center space-x-5 rtl:space-x-reverse">
         <a href="https://web.facebook.com/tofu.maulana.9" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
           <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
@@ -40,10 +40,10 @@
           <span class="sr-only">GitHub account</span>
         </a>
       </div>
-      <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center"
-        >© 2024 Created by <a href="https://www.instagram.com/tofumaulana/" class="text-black font-bold text-green-400 hover:text-pink-700">TofuMaulana</a> using <span class="text-green-700 font-bold">Vue.js</span> &
-        <span class="text-blue-600 font-bold">Tailwind CSS.</span></span
-      >
+      <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">2024 Created by <a href="https://www.instagram.com/tofumaulana/" class="text-black font-bold text-green-400 hover:text-pink-700">TofuMaulana</a> using </span>
+      <a href="https://vuejs.org/" class="text-green-700 font-bold">Vue.js</a>
+      &
+      <a href="https://tailwindcss.com/" class="text-blue-600 font-bold">Tailwind CSS.</a>
     </div>
   </footer>
 </template>
