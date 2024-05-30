@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white py-10 md:py-10 lg:py-10">
+  <div class="bg-white py-10 md:py-10 lg:py-10 min-h-screen">
     <div class="mx-auto max-w-xl text-center">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">My Projects</h2>
       <p class="py-10 text-lg leading-8 text-gray-600">My project management skills enable me to efficiently handle various tasks and achieve project goals on time.</p>
