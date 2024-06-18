@@ -3,7 +3,7 @@ import DashboardView from '../views/Dashboard.vue';
 import AboutView from '../views/About.vue';
 import ProjectView from '../views/Project.vue';
 import ContactView from '../views/Contact.vue';
-import TelkomsatView from '../views/Telkomsat.vue';
+import BooksView from '../views/Books.vue';
 import PokemonView from '../views/Pokemon.vue';
 import UserIndexView from '../views/UserIndex.vue';
 
@@ -29,8 +29,8 @@ const routes = [
     component: UserIndexView,
     children: [
       {
-        path: '/project/:name/telkomsat',
-        component: TelkomsatView,
+        path: '/project/:name/books',
+        component: BooksView,
       },
       {
         path: '/project/:name/pokemon',

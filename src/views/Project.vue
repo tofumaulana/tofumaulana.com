@@ -7,14 +7,14 @@
     <div class="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-1">
       <ul role="list" class="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-8 xl:col-span-2">
         <li>
-          <img class="aspect-[3/2] w-full rounded-xl object-cover border-2" src="/image/Screenshot_17-3-2024_204952_localhost.jpeg" alt="" />
+          <img class="aspect-[3/2] w-full rounded-xl object-cover border-2" src="/image/screenshot-1718714367378.png" alt="" />
           <div class="mt-6 -my-6" v-for="user in users">
-            <RouterLink :to="'/project/' + user.params1 + '/telkomsat'">
+            <RouterLink :to="'/project/' + user.params1 + '/books'">
               <span class="text-lg font-semibold hover:border-b-2 delay-200 border-red-500 leading-8 text-gray-900">{{ user.name1 }}</span>
             </RouterLink>
           </div>
-          <p class="text-base leading-7 text-gray-600">2023</p>
-          <p class="mt-4 text-base leading-7 text-gray-600">create a Telkomsat website using Vue Js and Tailwind CSS</p>
+          <p class="text-base leading-7 text-gray-600">2024</p>
+          <p class="mt-4 text-base leading-7 text-gray-600">create a (findbooks) Using Vue js & findbooksApi and Tailwind CSS</p>
         </li>
         <li>
           <img class="aspect-[3/2] w-full rounded-xl object-cover border-2" src="/image/pokemon.png" alt="" />
@@ -36,7 +36,7 @@ export default {
   data() {
     return {
       users: [
-        { name1: 'Telkomsat', params1: 'Telkomsat' },
+        { name1: 'FindBooks', params1: 'Books' },
         { name: 'Pokemon', params: 'Pokemon' },
       ],
     };
