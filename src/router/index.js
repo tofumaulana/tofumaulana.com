@@ -6,6 +6,7 @@ import ContactView from '../views/Contact.vue';
 import BooksView from '../views/Books.vue';
 import PokemonView from '../views/Pokemon.vue';
 import UserIndexView from '../views/UserIndex.vue';
+import RentalMobilView from '../views/Rental-mobil.vue';
 
 const routes = [
   {
@@ -35,6 +36,10 @@ const routes = [
       {
         path: '/project/:name/pokemon',
         component: PokemonView,
+      },
+      {
+        path: '/project/:name/rental-mobil',
+        component: RentalMobilView,
       },
     ],
   },

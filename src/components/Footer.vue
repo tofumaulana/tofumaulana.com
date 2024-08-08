@@ -40,10 +40,12 @@
           <span class="sr-only">GitHub account</span>
         </a>
       </div>
-      <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">2024 Created by <a href="https://www.instagram.com/tofumaulana/" class="text-black font-bold text-green-400 hover:text-pink-700">TofuMaulana</a> using </span>
-      <a href="https://vuejs.org/" class="text-green-700 font-bold">Vue.js</a>
-      &
-      <a href="https://tailwindcss.com/" class="text-blue-600 font-bold">Tailwind CSS.</a>
+      <div class="mx-5">
+        <span class="text-sm text-gray-500 dark:text-gray-300 text-center">2024 Created by <a href="https://www.instagram.com/tofumaulana/" class="font-bold text-green-400 hover:text-pink-700">TofuMaulana</a> using </span>
+        <a href="https://vuejs.org/" class="text-green-700 font-bold">Vue.js</a>
+        &
+        <a href="https://tailwindcss.com/" class="text-blue-600 font-bold">Tailwind CSS.</a>
+      </div>
     </div>
   </footer>
 </template>

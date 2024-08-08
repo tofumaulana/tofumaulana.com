@@ -1,7 +1,7 @@
 <template>
   <form class="max-w-sm md:max-w-xl mx-auto py-20 px-5 min-h-screen">
     <div class="text-center">
-      <h1 class="text-4xl font-bold">Hubungi Kami</h1>
+      <h1 class="text-4xl font-bold">contact us</h1>
     </div>
     <div class="">
       <div class="py-3 mt-5">
