@@ -29,7 +29,7 @@
 
     <div class="px-10 py-14">
       <h1 class="text-2xl font-bold">Rental Mobil</h1>
-      <p class="py-5"><span class="font-semibold">Year :</span> 2024</p>
+      <p class="py-5"><span class="font-semibold">Year :</span> 2023</p>
       <p><span class="font-semibold">Tech Stacks :</span> Laravel</p>
     </div>
   </div>

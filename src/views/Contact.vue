@@ -22,9 +22,7 @@
           placeholder="Email"
           class="shadow-sm bg-slate-700 border border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
           required
-          v-model="email"
         />
-        <label for="email" class="text-red-600 font-normal text-sm" v-if="emailError">minimal email 12 karakter</label>
       </div>
       <div class="py-3">
         <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
@@ -53,20 +51,11 @@
 export default {
   data() {
     return {
-      email: '',
       about: '',
-      emailError: false,
       aboutError: false,
     };
   },
   watch: {
-    email(value) {
-      if (value.length < 12) {
-        this.emailError = true;
-      } else {
-        this.emailError = false;
-      }
-    },
     about(value) {
       if (value.length < 10) {
         this.aboutError = true;
